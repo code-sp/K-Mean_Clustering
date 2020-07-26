@@ -2,21 +2,21 @@
 
 Data collection and Read Data:
 
-We receive input as a CSV file. Each line represents an item, and it contains numerical values (one for each feature) split by commas. We will read the data from the file, saving it into an array. Each element of the array is another array containing the item values for the feature.
+Receive input as a CSV file. Each line represents an item, and it contains numerical values (one for each feature) split by commas. We will read the data from the file, saving it into an array. Each element of the array is another array containing the item values for the feature.
 
 
 
 
 Initialize Mean:
 
-We want to initialize each mean’s values in the range of the feature values of the items. For that, we need to find the min and max for each feature. The variables minima, maxima are arrays containing the min and max values of the items respectively. We initialize each mean’s feature values randomly between the corresponding minimum and maximum.
+I want to initialize each mean’s values in the range of the feature values of the items. For that, we need to find the min and max for each feature. The variables minima, maxima are arrays containing the min and max values of the items respectively. We initialize each mean’s feature values randomly between the corresponding minimum and maximum.
 
 
 
 
 Euclidean Distance:
 
-We will be using the Euclidean distance as a metric of similarity for our data, Euclidian distance because k-means minimizes within clusters variance and as per definition of variance it is identical to the sum of squared Euclidian distances from the center. The way k-means is constructed is not based on distances. K-means minimizes within-cluster variance
+I will be using the Euclidean distance as a metric of similarity for our data, Euclidian distance because k-means minimizes within clusters variance and as per definition of variance it is identical to the sum of squared Euclidian distances from the center. The way k-means is constructed is not based on distances. K-means minimizes within-cluster variance
 
 
 Update Means: 
